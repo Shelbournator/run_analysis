@@ -3,9 +3,8 @@ title: "README"
 author: "Shelbournator"
 date: "22/03/2021"
 output:
-  prettydoc::html_pretty:
-    theme: leonids
-    highlight: github
+  github_document:
+    html_preview: false
 ---
 
 ```{r setup, include=FALSE}
