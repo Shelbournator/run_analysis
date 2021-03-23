@@ -24,9 +24,9 @@ run_analysis <- function(x,y) {
         
         ## Download file from websource.
         
-        if(!file.exists("./data")){dir.create("./data")}
-        fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-        download.file(fileURL, destfile="./data/samsung.csv", method="curl")
+        # if(!file.exists("./data")){dir.create("./data")}
+        # fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+        # download.file(fileURL, destfile="./data/samsung.csv", method="curl")
         
         # Read in subject IDs, activity labels and variable labels (column names).
         
